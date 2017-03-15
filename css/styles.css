@@ -1,0 +1,46 @@
+.orchlogo {
+    /*color:#1C9AEF;*/
+    color:#12b3ff;
+}
+.orch1 {
+    
+}
+.execOrch { /*styling the div that containe the team names */
+    width: 100%;
+    min-height: 182px;
+    /*border-right: 1px solid #1C9AEF;*/
+    height: 90%;
+}											
+
+.orchbars {
+	margin-top: 15px;
+}
+
+
+
+.bar {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.recap {
+	background-color: #008bcc;
+	height: 88.5%;
+	}
+
+.team {
+	background-color: #fff; 
+	border-top: solid 5px #01a3ef;
+}
+.thirdFrame {
+	background-color: #fff; 
+	border-top: solid 5px #12b3ff;
+}
+.contenu {
+	margin-top: 50px;
+}
+.age {
+	color: #fff;
+	padding-top: 20px;
+	font-size: 20px;
+	align: center;
+}

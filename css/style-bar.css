@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+
+.widget {
+  width: 100%;
+  max-width: 600px;
+  
+  
+}
+
+.widget header h3 {
+  margin: 0;
+  font-size: 1.35em;
+  font-weight: 400;
+}
+.widget .chart {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+@media only screen and (min-width: 600px) {
+  .widget .chart {
+    float: right;
+    width: 65%;
+    height: 275px;
+  }
+}
+.widget .chart .controls {
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.widget .chart .controls::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.widget .chart .controls nav {
+  float: left;
+  width: 75%;
+  line-height: 50px;
+  border-right: 1px solid #ccc;
+}
+.widget .chart .controls nav a {
+  display: block;
+  padding: 0 1.5em;
+  text-decoration: none;
+  color: #3c3c3c;
+}
+@media only screen and (min-width: 600px) {
+  .widget .chart .controls nav a {
+    padding: 0 1em;
+  }
+}
+.widget .chart .controls nav span {
+  display: inline-block;
+  float: right;
+  line-height: 50px;
+  color: #3797d3;
+}
+.widget .chart .controls div {
+  float: left;
+  width: 25%;
+  line-height: 50px;
+  text-align: center;
+}
+.widget .chart .controls div span:first-child {
+  color: #7dd343;
+}
+.widget .chart .controls div span:nth-child(2) {
+  font-weight: 600;
+  font-size: 1.35em;
+  color: #3c3c3c;
+}
+.widget .chart .canvas-container {
+  width: 100%;
+  text-align: center;
+}
+.widget .chart .canvas-container canvas {
+  display: inline;
+  width: 370px;
+  height: 210px;
+  padding: 1em;
+}
+.widget .info {
+  position: relative;
+  width: 100%;
+  
+ 
+}
+@media only screen and (min-width: 600px) {
+  .widget .info {
+    float: left;
+    width: 95%;
+  }
+}
+
+.widget .info .info-module {
+  padding: 0 1.5em;
+  font-weight: 400;
+}
+.widget .info .info-module .heading {
+  font-size: 0.85em;
+}
+.widget .info .info-module .heading::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.widget .info .info-module .heading span {
+  display: inline-block;
+  color: #000;
+}
+.widget .info .info-module .heading span:first-child {
+  float: left;
+}
+.widget .info .info-module .heading span:nth-child(2) {
+  float: right;
+}
+.widget .info .info-module .progress {
+  height: 5px;
+  margin: 0.35em 0 1em;
+  background: #cccddr;
+  border-radius: 10px;
+}
+.widget .info .info-module .progress:after {
+  content: '';
+  display: block;
+  height: 100%;
+  background: #45b0e6;
+  border-radius: 5px;
+}
+.widget .info .info-module .biology:after {
+  width: 65%;
+  -webkit-animation: biology 2s ease-in-out forwards;
+  animation: biology 2s ease-in-out forwards;
+}
+@-webkit-keyframes biology {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 11%;
+  }
+}
+
+.widget .info .info-module .laboratory:after {
+  width: 65%;
+  -webkit-animation: laboratory 2s ease-in-out forwards;
+  animation: laboratory 2s ease-in-out forwards;
+}
+@-webkit-keyframes laboratory {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 28%;
+  }
+}
+
+.widget .info .info-module .computers:after {
+  width: 65%;
+  -webkit-animation: computers 2s ease-in-out forwards;
+  animation: computers 2s ease-in-out forwards;
+}
+@-webkit-keyframes computers {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 19%;
+  }
+}
+
+.widget .info .info-module .communication:after {
+  width: 65%;
+  -webkit-animation: communication 2s ease-in-out forwards;
+  animation: communication 2s ease-in-out forwards;
+}
+@-webkit-keyframes communication {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 17%;
+  }
+}
+
+.widget .info .info-module .genetics:after {
+  width: 65%;
+  -webkit-animation: genetics 2s ease-in-out forwards;
+  animation: genetics 2s ease-in-out forwards;
+}
+@-webkit-keyframes genetics {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 13%;
+  }
+}
+
+
+
+.widget .info nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.widget .info nav a {
+  display: block;
+  line-height: 50px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+.widget .info nav span:first-child {
+  float: left;
+  width: 75%;
+  background: #49b4e8;
+}
+.widget .info nav span:nth-child(2) {
+  float: left;
+  width: 25%;
+  line-height: 50px;
+  background: #3099dd;
+}

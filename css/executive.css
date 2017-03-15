@@ -1,0 +1,263 @@
+.mainwrapperExec { /* addig the wodth of the main panel */
+    width: 100%;
+    padding: 10px;
+}
+
+.panelstyle { /*styling the panel exec width -card width- walid */ 
+    width: 1000px;
+    height: 350px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.mainwpanelExec { /*styling the first panel panel-default*/
+    padding: 10px;
+    padding-left: 0px;
+    width: 100%;
+}
+.md4style { /* reduce the padding from the col-md-4 */
+    padding-right: 15px;
+    padding-left: 13%;
+    margin-right: -38px;
+    margin-left: 20px;
+    /*height: 400px;*/
+}
+.panel .head { /*styling the gray header*/
+    height: 40px;
+    color:#1C9AEF;
+    background-color: #F4F0EF; 
+    padding-left: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.title { /*styling the titles inside the header*/
+    font-size: 17px;
+    font-weight: 300;
+    color: #008bcc;
+}
+.firstFrame { /*styling the subheader inside the heder div */
+    color: #fff;
+    font-size: 13px;
+    padding-top: 1px;
+    font-weight: normal;
+}
+.escDate { /*styling the date output inside the header*/
+    color: #000;
+    font-size: 12px;
+    font-weight: normal; 
+    padding-top: 0px;
+    margin-right: 0px;
+}
+.escStart { /*styling the start date */ 
+    padding-right: 2px;
+}
+.secondFrame { /*styling the div that containe the team names */
+    width: 100%;
+    min-height: 182px;
+    /*border-right: 1px solid #1C9AEF;*/
+    height: 90%;
+}
+.mainexecTeam { /*style the col-md-4 that contain the team names*/
+    width: 30%;
+    height: 95%;/*300px*/
+}
+.walid { /*style the col-md-4 that contain the team names*/
+    height: 100%;
+
+    /*border-right: 1px solid #1C9AEF;*/
+}
+.mainAutomation{ /*style the col-md-4 that contain the team names*/
+    /*width: 30%;*/
+    height: 300px;/*300px*/
+    /*overflow-y: scroll;*/
+    width: 65%;
+}
+
+
+
+.titleTeam { /*style the div that contain the h1 and the icon team */
+    margin-left: 2px; 
+}
+.titleTeam h1 { /*styles for the title team and the icon inside h1 */
+    font-size: 17px;
+    color: #8A8A8A;
+    /*margin-left: -137px;*/
+    padding-top: 2px;
+}
+.teamlogo {
+    /*color:#1C9AEF;*/
+    color:#01A3EF;
+}
+.teamh1 {
+    
+}
+.barTeam { /*style for the bar and the font for the text inside gray bar div team */
+    margin-left: 26px;
+    font-size: 12px;
+    font-weight: bold;
+    /*background-color: #8A8A8A;
+    color: #fff;
+    margin-top: -1px;
+    text-align: right;
+    width: 140px;
+    height: 15px;
+    padding-right: 4px;
+    font-size: 16px;*/
+}
+.containerTeam { /*styling the div that contain all team names and thier icons */
+    margin-left: -20px;
+    margin-top: 15px;
+    padding-left: 20px;
+    color:#000;
+    font-size: 14px;
+    /*overflow-y: scroll;*/
+    height: 100%;
+}
+.containerTeamLogo { /*style the icon for the team members */
+    color: #1C9AEF;
+    padding-right: 2px;
+}
+
+/* orchesration part styles */
+.exeOrchestrationbig {
+    padding-right: 0;
+    width: 100%;
+/*    overflow-y: scroll;*/
+    height: 100%;
+}
+
+
+.titleThirdFrame h1 { /*style for the orchestrition title and the icon inside the h1 tag*/
+    font-size: 17px;
+    color: #8A8A8A;
+    margin-left: 3px;
+    padding-top: 2px;
+}
+.barOrch { /*style the gray bar inside the orchestration div */
+    margin-left: 26px;
+    font-size: 12px;
+    font-weight: bold;
+    /*background-color: #8A8A8A;
+    color: #fff;
+    margin-left: -29px;
+    margin-top: -1px;
+    text-align: right;
+    width: 275px;
+    height: 20px;
+    padding-right: 4px;
+    font-size: 15px;*/
+}
+.remainingexec { /*style the text inside the bar orch */
+    font-size: 12px;
+}
+.bodyexec { /*add style to the panel body which contains all thre sections: tema, orchestration and donut*/
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 90%;
+}
+.orchcomponent { /*styles for the div that contain the chart bar for the orchestration*/
+    margin-top: 1px;
+    margin-bottom: 30px;
+    margin-left: 1px;
+    color: #000;
+    font-size: 14px;
+}
+
+.orchcomponent2 { /*styles for the div that contain the chart bar for the orchestration*/
+    /*padding-right: 5px;*/
+   /* margin-right: 31px;*/
+}
+.orchcompprog10 { /*styles for the chart bars */
+    margin-left: 120px;
+}
+
+.orchcompprog1 { /*styles for the chart bars */
+    margin-left: 73px;
+}
+.orchcompprog2 {
+    margin-left: 44px;
+}
+.orchcompprog3 {
+    margin-left: 72px;
+}
+.orchcompprog4 {
+    margin-left: 71px;
+}3
+.orchcompprog5 {
+    margin-left: 73px;
+}
+.orchcompprog6 {
+    margin-left: 24px;
+}
+
+.orchcomponent progress { /* styling the  progressbar */
+    background: #F1F1F1;
+    /*width: 20em;*/
+    height: 8px;
+    /*border: 1px solid #0085c3;*/
+}
+
+.orchcomponent progress::-webkit-progress-bar { /* styling the  progressbar */
+    background: rgba(0, 133, 195, .1);
+}
+
+.orchcomponent progress::-webkit-progress-value { /* styling the  progressbar */
+    background: #0085c3;
+}
+
+.orchcomponent progress::-moz-progress-bar { /* styling the  progressbar */
+    background: #12b3ff;
+}
+.timeresult { /*styling the output bar to desplay stat */
+    /*color:#1C9AEF;*/
+    color:#12b3ff;
+    /*padding-right: 20px;*/
+}
+.execdonut { /*styling the container of the directive donut */
+    margin-top: -25px;
+    padding-left: 10%;/*10px*/
+    width: 220px;
+    padding-right: 0px;
+}
+
+/* list of styles for the donut*/
+.donutexeccontainer {
+    margin-top: 15px;
+    color:#1C9AEF;
+    margin-bottom: 15px;
+
+}
+.logoexecchart { /*style for the watch inside the donut*/
+    padding-left: 14px;
+    font-size: 22px;
+    margin-top: -25px;
+    margin-bottom: -2px;
+}
+.exinfomainchart {
+    margin-bottom: -12px;
+}
+.execinfochart { /*style for the time output inside the donut*/
+    font-family: 'Verdana, serif';
+    font-weight: bold;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.hrchartexec { /*style for the blue line inside the donut*/
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-left: -10px;
+    border-color: #1C9AEF;
+    width: 100px;
+   
+}
+.execresdonut { /*style for the percentage donut*/
+    font-family: 'Verdana, serif';
+    font-size: 30px;
+    padding-left: 20px;
+   /* margin-top: -25px;*/
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
